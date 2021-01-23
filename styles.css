@@ -1,0 +1,46 @@
+/* Customary for all pages*/
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@200;300;600&family=Nanum+Gothic&family=Potta+One&family=Quicksand&display=swap');
+body {
+    background-color: #1D1C1C !important;
+    font-family: "Nanum Gothic", "Arial";
+}
+
+
+/* */
+
+.page-title {
+    color: #0C97D3;
+    font-family: "Anton", arial;
+}
+
+p {
+    width: 500px;
+    font-family: "Quicksand", arial;
+    color: white;
+}
+
+.container {
+    position: relative;
+    height: 98%;
+}
+
+img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+}
+
+.btn:hover {
+    box-shadow: 5px 5px 10px #302f31 !important;
+}
+
+.btn {
+    color: #F58F8F !important;
+    font-family: "Potta One", Arial;
+    border: 1px solid #F58F8F !important;
+    margin: 10px;
+}
+ 
+

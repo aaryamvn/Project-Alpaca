@@ -1,0 +1,169 @@
+/* Customary for all pages*/
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@200;300;600&family=Nanum+Gothic&family=Potta+One&family=Quicksand&display=swap');
+body {
+    background-color: #1D1C1C !important;
+    font-family: "Nanum Gothic", "Arial";
+    color: white !important;
+}
+
+.actual-content {
+    margin: auto;
+    margin-top: 59px;
+    margin-right: 50px;
+}
+
+.heading {
+    background: -webkit-linear-gradient(-45deg, rgb(199, 125, 125), rgb(36, 36, 165)) !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    font-size: 25px;
+    font-family: "Quicksand", Arial;
+}
+
+/* */
+
+/* Navbars */
+
+.navbar .navbar-icon {
+    width: 50px;
+}
+
+.navbar .user-pfp {
+    width: 40px;
+}
+
+.navbar {
+    border-bottom: 1px solid rgb(43, 42, 42);
+    padding-bottom: 1px !important;
+    overflow: hidden;
+    position: fixed !important;
+    background-color: #1D1C1C;
+}
+
+.navbar .fa-bell {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.navbar .fa-bell:before {
+    background: -webkit-linear-gradient(45deg, rgb(223, 34, 34), rgb(36, 36, 165));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navbar .input-group {
+    margin-left: 15px;
+}
+
+.navbar .input-group .input-group-prepend .input-group-text {
+    background: transparent;
+    border-right: none !important;
+    height: 35px !important;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.navbar .input-group .form-control {
+    width: 300px;
+    border-left: none !important;
+    background-color: transparent;
+    border-radius: 100px;
+    height: 35px !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.side-nav-menu {
+    height: 100%;
+    position: fixed !important;
+    z-index: 999;
+    margin-left: 10px;
+    padding-right: 2px;
+    border-right: 1px solid rgb(43, 42, 42);
+    margin-top: 72px;
+}
+
+.side-nav-menu-child a {
+    background: -webkit-linear-gradient(45deg, #fff, #fff) !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+}
+
+.side-nav-menu-child a i {
+    font-size: 23px;
+}
+
+.side-nav-menu-child .active {
+    box-shadow: 5px 5px 10px #161616 !important;
+    width: 100%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.side-nav-menu-child .active i:before {
+    background: -webkit-linear-gradient(45deg, rgb(223, 34, 34), rgb(36, 36, 165)) !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+.side-nav-menu-child li {
+    height: 58px !important;
+}
+
+/* */
+
+/* Dashboard */
+
+.actual-content .welcome-cont {
+    height: 200px !important;
+    display: flex !important;
+    margin-top: 30px;
+    background: -webkit-linear-gradient(45deg, rgb(160, 91, 91), rgb(36, 36, 165));
+    border-radius: 10px;
+}
+
+.actual-content .welcome-cont .welcome-msg {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica;
+    font-size: 40px;
+    align-self: flex-end;
+    user-select: none;
+}
+
+.actual-content .welcome-cont .quote {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica;
+    font-size: 20px;
+    user-select: none;
+}
+
+.welcome-cont-sub-cont {
+    align-self: flex-end;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.actual-content .center {
+    width: 85% !important;
+    margin: auto;
+}
+
+
+.actual-content .courses-cont {
+    margin-top: 20px;
+}
+
+.actual-content .courses-cont .courses .course {
+width: 300px;
+height: 400px;
+}
+
+.actual-content .courses-cont .courses {
+    margin-top: 20px;
+}
+/* */
