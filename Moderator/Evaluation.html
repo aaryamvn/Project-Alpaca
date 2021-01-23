@@ -1,0 +1,219 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Alpaca</title>
+
+    <!-- favicon stuff-->
+    <link rel="icon" type="image/png" href="images/logos/AlpacaLogoLite.ico" />
+
+    <!-- Styles-->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Font Awesome Inclusion -->
+    <script src="../cae5433c70.js"></script>
+
+    <!-- BS4 and Jquery Inclusion and Activation -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand mb-2 fixed-top d-flex justify-content-between align-items-center">
+            <div class="left d-flex align-items-center">
+                <img src="../images/logos/AlpacaLogoLite.png" class="navbar-icon">
+
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text"><i class="fal fa-search"></i></div>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Search 20,000,000+ Courses">
+                </div>
+
+            </div>
+
+            <div class="right d-flex align-items-center">
+                <i class="fa fa-bell"></i>
+                <img src="../Images/People/circle-cropped.png" alt="" class="user-pfp">
+            </div>
+        </nav>
+    </header>
+
+    <div class="row">
+        <div class="col-lg-1">
+            <div class="side-nav-menu">
+                <ul class="nav flex-column side-nav-menu-child" id="pills-tab" role="tablist"
+                    aria-orientation="vertical">
+                    <li class="nav-item" title="Home" data-toggle="tooltip" data-placement="right">
+                        <a class="nav-link active" id="" href="index.html" aria-controls="" aria-selected="true">
+                            <i class="far fa-home"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" title="All Courses" data-toggle="tooltip" data-placement="right">
+                        <a class="nav-link" id="" href="AllCourses.html" aria-controls="" aria-selected="false">
+                            <i class="far fa-books"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" title="Become a Creator on Alpaca" data-toggle="tooltip"
+                        data-placement="right">
+                        <a class="nav-link" id="" href="CourseCreated.html" aria-controls="" aria-selected="false">
+                            <i class="far fa-file"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" title="Become A Moderator on Alpaca" data-toggle="tooltip"
+                        data-placement="right">
+                        <a class="nav-link" id="" href="Evaluation.html" aria-controls="" aria-selected="false">
+                            <i class="far fa-file-check"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-lg-11 actual-content">
+            <div class="center">
+                <div class="courses-cont">
+                    <span class="heading">New Courses for You to Evaluate</span>
+
+                    <div class="courses mb-4">
+                        <div class="course card">
+                            <div class="card-body">
+                                <h5 class="card-title">Learn MySQL</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Pellentesque vulputate lectus ac odio tristique, eget vestibulum neque maximus. Nunc
+                                    sed tortor nisl.</p>
+                                <div class="pfp d-flex align-items-center">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Billie_Eilish_2019_by_Glenn_Francis_%28cropped%29_2.jpg/1200px-Billie_Eilish_2019_by_Glenn_Francis_%28cropped%29_2.jpg"
+                                        class="rounded-image">
+                                    <p class="ml-2 text">Submitted by Billie Eilish</p>
+                                </div>
+                                <div class="card-foot">
+                                    <span class="course-price float-right">$19</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="course card">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Learn Kotlin</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Pellentesque vulputate lectus ac odio tristique, eget vestibulum neque maximus. Nunc
+                                    sed tortor nisl.</p>
+                                <div class="pfp d-flex align-items-center">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Donald_Trump_official_portrait.jpg/1200px-Donald_Trump_official_portrait.jpg"
+                                        class="rounded-image">
+                                    <p class="ml-2 text">Submitted by D. Trump(et)</p>
+                                </div>
+                                <div class="card-foot">
+                                    <span class="course-price float-right">$34</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="course card">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Learn C++</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Pellentesque vulputate lectus ac odio tristique, eget vestibulum neque maximus. Nunc
+                                    sed tortor nisl.</p>
+                                <div class="pfp d-flex align-items-center">
+                                    <img src="data:image/jpeg;base64,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"
+                                        class="rounded-image">
+                                    <p class="ml-2 text">Submitted by Jungkook</p>
+                                </div>
+                                <div class="card-foot">
+                                    <span class="course-price float-right">$48</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <span class="heading">Previously Evaluated Courses</span>
+
+                    <div class="courses mb-4">
+                        <div class="course card">
+                            <div class="card-body">
+                                <h5 class="card-title">Learn Web Development</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Pellentesque vulputate lectus ac odio tristique, eget vestibulum neque maximus. Nunc
+                                    sed tortor nisl.</p>
+                                <div class="card-foot d-flex justify-content-between align-items-center">
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <span class="course-price">$40</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="course card">
+                            <div class="card-body">
+                                <h5 class="card-title">Learn Swift</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Pellentesque vulputate lectus ac odio tristique, eget vestibulum neque maximus. Nunc
+                                    sed tortor nisl.</p>
+                                <div class="card-foot d-flex justify-content-between align-items-center">
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fal fa-star"></i>
+                                    </div>
+                                    <span class="course-price">$20</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="course card">
+                            <div class="card-body">
+                                <h5 class="card-title">Learn PHP</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Pellentesque vulputate lectus ac odio tristique, eget vestibulum neque maximus. Nunc
+                                    sed tortor nisl.</p>
+                                <div class="card-foot d-flex justify-content-between align-items-center">
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <span class="course-price">$50</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script>
+            $(".course").click(function () {
+                window.location.href = "Course.html"
+            });
+        </script>
+
+</body>
+
+</html>

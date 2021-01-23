@@ -22,15 +22,12 @@ body {
     font-family: "Quicksand", Arial;
 }
 
+
 .rounded-image {
     text-align: center;
     border-radius: 100%;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    padding: 0 7px;
-    display: flex;
-    justify-content: center;
+    width: 40px;
+    height: 40px;
 }
 
 /* */
@@ -188,6 +185,9 @@ body {
     object-fit: cover;
 }
 
+.actual-content .courses-cont .courses .course .card-body .pfp .text {
+    font-family: "Quicksand", arial;
+}
 /* */
 
 /* Course.html */
@@ -201,7 +201,6 @@ body {
 }
 
 .actual-content .center .course-top-card-content {
-    position: relative;
 }
 
 .actual-content .center .course-top-card-content .bottom-course-top-card-content {
@@ -220,10 +219,6 @@ body {
 }
 
 .actual-content .center .course-top-card-content .bottom-course-top-card-content .fa-circle {
-    font-size: 5px;
-}
-
-.actual-content .center .course-top-card-content .bottom-course-top-card-content span {
-    margin-right: 5px;
-    font-family: "Quicksand","Arial";
+    margin-right: 10px;
+    margin-left: 10px;
 }

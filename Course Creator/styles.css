@@ -22,17 +22,6 @@ body {
     font-family: "Quicksand", Arial;
 }
 
-.rounded-image {
-    text-align: center;
-    border-radius: 100%;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    padding: 0 7px;
-    display: flex;
-    justify-content: center;
-}
-
 /* */
 
 /* Navbars */
@@ -217,13 +206,4 @@ body {
 .actual-content .center .course-top-card .course-top-card-price {
     font-family: "Potta One", Arial;
     font-size: 35px;
-}
-
-.actual-content .center .course-top-card-content .bottom-course-top-card-content .fa-circle {
-    font-size: 5px;
-}
-
-.actual-content .center .course-top-card-content .bottom-course-top-card-content span {
-    margin-right: 5px;
-    font-family: "Quicksand","Arial";
 }
