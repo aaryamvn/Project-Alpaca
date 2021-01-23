@@ -153,17 +153,36 @@ body {
     margin: auto;
 }
 
-
 .actual-content .courses-cont {
     margin-top: 20px;
 }
 
-.actual-content .courses-cont .courses .course {
-width: 300px;
-height: 400px;
-}
-
 .actual-content .courses-cont .courses {
     margin-top: 20px;
+    margin-left: 30px;
+
+    display: flex;
 }
+
+.actual-content .courses-cont .courses .course {
+    width: 300px;
+    background: transparent !important;
+    margin-right: 20px;
+}
+
+.actual-content .courses-cont .courses .course .card-body {
+    background: -webkit-linear-gradient(45deg, rgb(160, 91, 91), rgb(36, 36, 165));
+    border-bottom-right-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+}
+
+.actual-content .courses-cont .courses .course .card-body .course-price {
+    font-size: 20px;
+}
+
+.actual-content .courses-cont .courses .course .card-img-top {
+    height: 297px;
+    width: 297px;
+}
+
 /* */
