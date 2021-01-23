@@ -183,6 +183,7 @@ body {
 .actual-content .courses-cont .courses .course .card-img-top {
     height: 297px;
     width: 297px;
+    object-fit: cover;
 }
 
 /* */
