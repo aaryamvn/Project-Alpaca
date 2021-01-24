@@ -1,0 +1,168 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Alpaca</title>
+
+    <!-- favicon stuff-->
+    <link rel="icon" type="image/png" href="../images/logos/AlpacaLogoLite.ico" />
+
+    <!-- Styles-->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Font Awesome Inclusion -->
+    <script src="../cae5433c70.js"></script>
+
+    <!-- BS4 and Jquery and Js Libraries Inclusion and Activation -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand mb-2 fixed-top d-flex justify-content-between align-items-center">
+            <div class="left d-flex align-items-center">
+                <img src="../images/logos/AlpacaLogoLite.png" class="navbar-icon">
+
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text"><i class="fal fa-search"></i></div>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Search across 20,000,000+ Courses">
+                </div>
+
+            </div>
+
+            <div class="right d-flex align-items-center">
+                <i class="fa fa-bell"></i>
+                <img src="../Images/People/circle-cropped.png" alt="" class="user-pfp">
+            </div>
+        </nav>
+    </header>
+
+    <div class="row">
+        <div class="col-lg-1">
+            <div class="side-nav-menu">
+                <ul class="nav flex-column side-nav-menu-child" id="pills-tab" role="tablist"
+                    aria-orientation="vertical">
+                    <li class="nav-item" title="Home" data-toggle="tooltip" data-placement="right">
+                        <a class="nav-link" id="" href="index.html" aria-controls="" aria-selected="false">
+                            <i class="far fa-home"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" title="Course Catalog" data-toggle="tooltip" data-placement="right">
+                        <a class="nav-link" id="" href="AllCourses.html" aria-controls="" aria-selected="false">
+                            <i class="far fa-books"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" title="Student Analytics" data-toggle="tooltip" data-placement="right">
+                        <a class="nav-link active" id="" href="students.html" aria-controls="" aria-selected="true">
+                            <i class="far fa-chart-line"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-lg-11 actual-content">
+            <div class="center mt-3">
+
+                <div class="row">
+
+                    <div class="col-lg-3">
+                        <span class="heading"> Students </span>
+                        <span class="student"> <img src="../Images/People/default-avatar.png" alt="" class="user-pfp">
+                            Billy Stevam</span>
+                        <span class="student"> <img src="../Images/People/default-avatar.png" alt="" class="user-pfp">
+                            Joseph Radcliff</span>
+                        <span class="student active"> <img src="../Images/People/default-avatar.png" alt=""
+                                class="user-pfp"> Hannah Mackenzie</span>
+                        <span class="student"> <img src="../Images/People/default-avatar.png" alt="" class="user-pfp">
+                            Billie Eilish</span>
+                        <span class="student"> <img src="../Images/People/default-avatar.png" alt="" class="user-pfp">
+                            Donald Trump</span>
+                        <span class="student"> <img src="../Images/People/default-avatar.png" alt="" class="user-pfp">
+                            Bustin Jeiber</span>
+                        <span class="student"> <img src="../Images/People/default-avatar.png" alt="" class="user-pfp">
+                            Jungkook </span>
+                        <span class="student"> <img src="../Images/People/default-avatar.png" alt="" class="user-pfp">
+                            Alex Barber</span>
+                        <span class="student"> <img src="../Images/People/default-avatar.png" alt="" class="user-pfp">
+                            Steven Hawkings </span>
+                    </div>
+
+                    <div class="col-lg-9">
+                        <div class="info">
+                            <div class="name">
+                                <img src="../Images/People/default-avatar.png" alt="" class="user-pfp">
+                                <h1>Student - Hannah Mackenzie</h1>
+                            </div>
+                        </div>
+                        <div class="main">
+                            <div class="canvas">
+                                <p class="mini-heading">2020 Overall Academic Performace (In percentage)</p>
+                                <canvas id="student_year_performance"></canvas>
+                            </div>
+
+                            <div class="improve">
+                                <p class="mini-heading">Weak Points <i class="fal fa-info-circle" data-toggle="tooltip" title="Alpaca has picked up this students weaker points from assignments
+                                    and knowledge assesment checkpoints, and has listed them out."></i></p>
+
+                                <span class="problem">Trouble understanding the concept of "Recursion" in "Learn Java" course</span>
+                                <span class="problem">Trouble understanding the concept of "Data Structures" in "Learn Java" course</span>
+                                <span class="problem">Trouble understanding the concept of "Prototyping" in "Learn Adobe XD" course</span>
+
+                                <p class="text-muted ml-2">According to the current trend, as well as concept understanding, Hannah Mackenzie is predicted to acheive an 80% score for the month of january.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var ctx = document.getElementById('student_year_performance').getContext('2d');
+        var chart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+                datasets: [{
+                    label: 'Year Overall Academic Performance',
+                    backgroundColor: '#1D1C1C',
+                    borderColor: 'white',
+                    data: [90, 88, 93, 87, 83, 71, 89, 93, 88, 80, 83, 73]
+                }]
+            },
+            options: {
+                legend: {
+                    display: false
+                },
+                tooltips: {
+                    callbacks: {
+                        label: function (tooltipItem) {
+                            return tooltipItem.yLabel;
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+
+</body>
+
+</html>

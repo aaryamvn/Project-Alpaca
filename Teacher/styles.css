@@ -4,8 +4,7 @@
 body {
     background-color: #1D1C1C !important;
     font-family: "Nanum Gothic", "Arial";
-    color: rgb(231, 228, 228) !important;
-    margin-bottom: 30px !important;
+    color: white !important;
 }
 
 .actual-content {
@@ -21,17 +20,6 @@ body {
     -webkit-text-fill-color: transparent !important;
     font-size: 25px;
     font-family: "Quicksand", Arial;
-}
-
-.rounded-image {
-    text-align: center;
-    border-radius: 100%;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    padding: 0 7px;
-    display: flex;
-    justify-content: center;
 }
 
 /* */
@@ -180,6 +168,10 @@ body {
     border-bottom-left-radius: 10px !important;
 }
 
+.actual-content .courses-cont .courses .course .card-body .course-card-cc-stats {
+    font-family: "Quicksand", arial;
+}
+
 .actual-content .courses-cont .courses .course .card-body .course-price {
     font-size: 20px;
 }
@@ -188,8 +180,6 @@ body {
     height: 297px;
     object-fit: cover;
 }
-
-
 
 /* implementing for owned courses */
 
@@ -215,7 +205,6 @@ body {
     font-size: 20px;
 }
 
-/* */
 /* */
 
 /* Course.html */
@@ -289,7 +278,7 @@ body {
 }
 
 .actual-content .center .info-part .wht-u-learn-cont .learning-item i:before {
-    background: -webkit-linear-gradient(45deg, rgb(160, 91, 91), rgb(36, 36, 165)) !important;
+    background: -webkit-linear-gradient(45deg, rgb(223, 34, 34), rgb(36, 36, 165)) !important;
     -webkit-background-clip: text !important;
     background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
@@ -371,7 +360,6 @@ body {
     -webkit-text-fill-color: transparent !important;
     cursor: pointer;
     margin-bottom: 20px;
-
 }
 
 .actual-content .center .row .info-part .content .sub-section-heading {
@@ -383,7 +371,6 @@ body {
     background: -webkit-linear-gradient(45deg, rgb(160, 91, 91), rgb(36, 36, 165)) !important;
     cursor: pointer;
     margin-bottom: 20px;
-
 }
 
 .actual-content .center .row .info-part .content .eoc-heading {
@@ -397,20 +384,80 @@ body {
     font-size: 20px;
 }
 
-/* CoursesCreated.html */
-.actual-content .center .row .why-not-create {
-    padding: 10px;
-    background: -webkit-linear-gradient(45deg, rgb(160, 91, 91), rgb(36, 36, 165)) !important;
-    color: white;
-    border-radius: 7px;
+/* */
+
+/* Teachers.html */
+
+.actual-content .center .courses-cont .course .card-foot .fa-circle {
+    font-size: 5px;
+}
+
+.actual-content .center .courses-cont .course .card-foot span {
+    margin: 0 5px;
     font-family: "Quicksand", arial;
-    margin-bottom: 20px;
-    cursor: pointer;
-    font-size: 20px;
-       } 
+}
 
 /* */
 
-/* Evaluation.html */
+/* students.html */
+
+.actual-content .center .student {
+    padding: 8px;
+    color: white;
+    border-radius: 7px;
+    font-family: "Quicksand", arial;
+    display: block;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.actual-content .center .student img {
+    width: 29px;
+    margin-right: 5px;
+}
+
+.actual-content .center .student.active {
+    background: -webkit-linear-gradient(45deg, rgb(160, 91, 91), rgb(36, 36, 165)) !important;
+}
+
+
+.actual-content .center .col-lg-9 .mini-heading {
+font-family: "Quicksand",arial,sans-serif;
+background: -webkit-linear-gradient(45deg, rgb(160, 91, 91), rgb(36, 36, 165)) !important;
+-webkit-background-clip: text !important;
+background-clip: text !important;
+-webkit-text-fill-color: transparent !important;
+font-size: 20px;
+}
+.actual-content .center .col-lg-9 .info .user-pfp {
+    width: 70px;
+    margin-right: 10px;
+}
+
+.actual-content .center .col-lg-9 .info .name {
+    display: flex;
+    align-items: center;
+    font-family: "Quicksand", arial;
+    background: -webkit-linear-gradient(45deg, rgb(160, 91, 91), rgb(36, 36, 165)) !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+.actual-content .center .col-lg-9 .main {
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.actual-content .center .col-lg-9 .main .improve .problem {
+    padding: 4px 10px;
+    border-radius: 7px !important;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: 10px;
+}
 
 /* */

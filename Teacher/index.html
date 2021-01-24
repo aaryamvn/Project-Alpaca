@@ -56,29 +56,18 @@
                 <ul class="nav flex-column side-nav-menu-child" id="pills-tab" role="tablist"
                     aria-orientation="vertical">
                     <li class="nav-item" title="Home" data-toggle="tooltip" data-placement="right">
-                        <a class="nav-link active" id="" href="index.html"  aria-controls=""
-                            aria-selected="true">
+                        <a class="nav-link active" id="" href="index.html" aria-controls="" aria-selected="true">
                             <i class="far fa-home"></i>
                         </a>
                     </li>
-                    <li class="nav-item" title="All Courses" data-toggle="tooltip" data-placement="right">
-                        <a class="nav-link" id="" href="AllCourses.html" aria-controls=""
-                            aria-selected="false">
+                    <li class="nav-item" title="Course Catalog" data-toggle="tooltip" data-placement="right">
+                        <a class="nav-link" id="" href="AllCourses.html" aria-controls="" aria-selected="false">
                             <i class="far fa-books"></i>
                         </a>
                     </li>
-                    <li class="nav-item" title="Create" data-toggle="tooltip"
-                        data-placement="right">
-                        <a class="nav-link" id="" href="CourseCreated.html" aria-controls=""
-                            aria-selected="false">
-                            <i class="far fa-file"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item" title="Moderate" data-toggle="tooltip"
-                        data-placement="right">
-                        <a class="nav-link" id="" href="Evaluation.html" aria-controls=""
-                            aria-selected="false">
-                            <i class="far fa-file-check"></i>
+                    <li class="nav-item" title="Students" aria-controlsdata-toggle="tooltip" data-placement="right">
+                        <a class="nav-link" id="" href="students.html" aria-controls="" aria-selected="false">
+                            <i class="far fa-chart-line"></i>
                         </a>
                     </li>
                 </ul>
@@ -89,117 +78,123 @@
             <div class="center">
                 <div class="welcome-cont">
                     <div class="welcome-cont-sub-cont">
-                        <span class="welcome-msg">Welcome, John Doe</span><br>
+                        <span class="welcome-msg">Welcome, Mrs. Johnson</span><br>
                         <span class="quote"><em>“Leadership and learning are indispensable to each other." – John F.
-                            Kennedy</em> 
+                                Kennedy</em>
                         </span>
                     </div>
                 </div>
 
                 <div class="courses-cont">
-                    <span class="heading">Recommended For You</span>
+                    <span class="heading">Courses You Teach</span>
 
                     <div class="courses mb-4">
-                        <div class="course card">
+                        <div class="course card" onclick="window.location.href = 'OwnedCourse.html';">
                             <img src="../images/Sample Course Images/coding pic.jpeg" class="card-img-top" alt="">
                             <div class="card-body">
                                 <h5 class="card-title">Learn Code Foundations</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                     Pellentesque vulputate lectus ac odio tristique, eget vestibulum neque maximus. Nunc
-                                    sed tortor nisl.</p>
-                                <div class="card-foot d-flex justify-content-between align-items-center">
-                                    <div class="rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fal fa-star"></i>
-                                    </div>
-                                    <span class="course-price">$20</span>
+                                    sed tortor nisl. </p>
+                                <div class="card-foot d-flex align-items-center float-right">
+                                    <span class="stat mr-2">Average 99%</span>
+                                    <i class="fas fa-circle"></i>
+                                    <span class="stat">10 Students</span>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="course card">
-                            <img src="../images/Sample Course Images/5-tips-for-students-to-improve-coding-skills-during-college.jpg" class="card-img-top" alt="">
+                        <div class="course card" onclick="window.location.href = 'OwnedCourse.html';">
+                            <img src="../images/Sample Course Images/5-tips-for-students-to-improve-coding-skills-during-college.jpg"
+                                class="card-img-top" alt="">
                             <div class="card-body">
                                 <h5 class="card-title">Learn PHP</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                     Pellentesque vulputate lectus ac odio tristique, eget vestibulum neque maximus. Nunc
                                     sed tortor nisl.</p>
-                                <div class="card-foot d-flex justify-content-between align-items-center">
-                                    <div class="rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                    <span class="course-price">$50</span>
+                                <div class="card-foot d-flex align-items-center float-right">
+                                    <span class="stat mr-2">Average 83%</span>
+                                    <i class="fas fa-circle"></i>
+                                    <span class="stat">10 Students</span>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="course card">
+                        <div class="course card" onclick="window.location.href = 'OwnedCourse.html';">
                             <img src="../images/Sample Course Images/images.jfif" class="card-img-top" alt="">
                             <div class="card-body">
                                 <h5 class="card-title">Learn AI with Python</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                     Pellentesque vulputate lectus ac odio tristique, eget vestibulum neque maximus. Nunc
                                     sed tortor nisl.</p>
-                                <div class="card-foot d-flex justify-content-between align-items-center">
-                                    <div class="rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fal fa-star"></i>
-                                        <i class="fal fa-star"></i>
-                                    </div>
-                                    <span class="course-price">$40</span>
+
+                                <div class="card-foot d-flex align-items-center float-right">
+                                    <span class="stat mr-2">Average 80%</span>
+                                    <i class="fas fa-circle"></i>
+                                    <span class="stat">11 Students</span>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <span class="heading">Owned By You</span>
+                    <div class="courses mb-4">
+                        
 
-                    <div class="courses">
-                        <div class="course2 card" onclick="window.location.href = 'OwnedCourse.html';">
+                        <div class="course card" onclick="window.location.href = 'OwnedCourse.html';">
+                            <img src="../images/Sample Course Images/5-tips-for-students-to-improve-coding-skills-during-college.jpg"
+                                class="card-img-top" alt="">
                             <div class="card-body">
-                                <h5 class="card-title">Learn Web Development</h5>
+                                <h5 class="card-title">Learn PHP</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                     Pellentesque vulputate lectus ac odio tristique, eget vestibulum neque maximus. Nunc
                                     sed tortor nisl.</p>
-                                <div class="card-foot d-flex justify-content-between align-items-center">
-                                    <div class="rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fal fa-star"></i>
-                                    </div>
-                                    <span class="course-price">$20</span>
+                                <div class="card-foot d-flex align-items-center float-right">
+                                    <span class="stat mr-2">Average 83%</span>
+                                    <i class="fas fa-circle"></i>
+                                    <span class="stat">10 Students</span>
                                 </div>
                             </div>
                         </div>
 
+                        <div class="course card" onclick="window.location.href = 'OwnedCourse.html';">
+                            <img src="../images/Sample Course Images/coding pic.jpeg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Learn Code Foundations</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Pellentesque vulputate lectus ac odio tristique, eget vestibulum neque maximus. Nunc
+                                    sed tortor nisl. </p>
+                                <div class="card-foot d-flex align-items-center float-right">
+                                    <span class="stat mr-2">Average 99%</span>
+                                    <i class="fas fa-circle"></i>
+                                    <span class="stat">10 Students</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="course card" onclick="window.location.href = 'OwnedCourse.html';">
+                            <img src="../images/Sample Course Images/images.jfif" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Learn AI with Python</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Pellentesque vulputate lectus ac odio tristique, eget vestibulum neque maximus. Nunc
+                                    sed tortor nisl.</p>
+
+                                <div class="card-foot d-flex align-items-center float-right">
+                                    <span class="stat mr-2">Average 80%</span>
+                                    <i class="fas fa-circle"></i>
+                                    <span class="stat">11 Students</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
-                    
                 </div>
             </div>
         </div>
     </div>
 
-    
-<script>
-$( ".course" ).click(function() {
-  window.location.href = "Course.html"
-});
 
-</script>
-
+   
 </body>
 
 </html>
-
