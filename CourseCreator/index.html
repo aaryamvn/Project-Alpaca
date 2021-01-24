@@ -1,0 +1,215 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Alpaca</title>
+
+    <!-- favicon stuff-->
+    <link rel="icon" type="image/png" href="images/logos/AlpacaLogoLite.ico" />
+
+    <!-- Styles-->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Font Awesome Inclusion -->
+    <script src="../cae5433c70.js"></script>
+
+    <!-- BS4 and Jquery Inclusion and Activation -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand mb-2 fixed-top d-flex justify-content-between align-items-center">
+            <div class="left d-flex align-items-center">
+                <img src="../images/logos/AlpacaLogoLite.png" class="navbar-icon">
+
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text"><i class="fal fa-search"></i></div>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Search 20,000,000+ Courses">
+                </div>
+
+            </div>
+
+            <div class="right d-flex align-items-center">
+                <i class="fa fa-bell"></i>
+                <img src="../Images/People/circle-cropped.png" alt="" class="user-pfp">
+            </div>
+        </nav>
+    </header>
+
+    <div class="row">
+        <div class="col-lg-1">
+            <div class="side-nav-menu">
+                <ul class="nav flex-column side-nav-menu-child" id="pills-tab" role="tablist"
+                    aria-orientation="vertical">
+                    <li class="nav-item" title="Home" data-toggle="tooltip" data-placement="right">
+                        <a class="nav-link active" id="" href="index.html" aria-controls="" aria-selected="true">
+                            <i class="far fa-home"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" title="All Courses" data-toggle="tooltip" data-placement="right">
+                        <a class="nav-link" id="" href="AllCourses.html" aria-controls="" aria-selected="false">
+                            <i class="far fa-books"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" title="Become a Creator on Alpaca" data-toggle="tooltip"
+                        data-placement="right">
+                        <a class="nav-link" id="" href="CourseCreated.html" aria-controls="" aria-selected="false">
+                            <i class="far fa-file"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" title="Become A Moderator on Alpaca" data-toggle="tooltip"
+                        data-placement="right">
+                        <a class="nav-link" id="" href="Evaluation.html" aria-controls="" aria-selected="false">
+                            <i class="far fa-file-check"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-lg-11 actual-content">
+            <div class="center">
+                <div class="welcome-cont">
+                    <div class="welcome-cont-sub-cont">
+                        <span class="welcome-msg">Welcome, John Doe</span><br>
+                        <span class="quote"><em>“Leadership and learning are indispensable to each other." – John F.
+                                Kennedy</em>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="courses-cont">
+                    <span class="heading">Courses You Created</span>
+
+                    <div class="courses mb-4">
+                        <div class="course card">
+                            <img src="../images/Sample Course Images/coding pic.jpeg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Learn Code Foundations</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Pellentesque vulputate lectus ac odio tristique, eget vestibulum neque maximus. Nunc
+                                    sed tortor nisl. </p>
+                                <div class="course-card-cc-stats mb-3">
+                                    <i class="fal fa-dollar-sign"></i> 2m dollars Earned<br>
+                                    <i class="fal fa-coins"></i> 2000 Reputation Points Earned<br>
+                                    <i class="fal fa-shopping-cart"></i> 200k Purchases<br>
+                                </div>
+                                <div class="card-foot d-flex justify-content-between align-items-center">
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fal fa-star"></i>
+                                    </div>
+                                    <span class="course-price">$20</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="course card">
+                            <img src="../images/Sample Course Images/5-tips-for-students-to-improve-coding-skills-during-college.jpg"
+                                class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Learn PHP</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Pellentesque vulputate lectus ac odio tristique, eget vestibulum neque maximus. Nunc
+                                    sed tortor nisl.</p>
+                                <div class="course-card-cc-stats mb-3">
+                                    <i class="fal fa-dollar-sign"></i> 10m dollars Earned<br>
+                                    <i class="fal fa-coins"></i> 4000 Reputation Points Earned<br>
+                                    <i class="fal fa-shopping-cart"></i> 400k Purchases<br>
+                                </div>
+                                <div class="card-foot d-flex justify-content-between align-items-center">
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <span class="course-price">$50</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="course card">
+                            <img src="../images/Sample Course Images/images.jfif" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Learn AI with Python</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Pellentesque vulputate lectus ac odio tristique, eget vestibulum neque maximus. Nunc
+                                    sed tortor nisl.</p>
+                                <div class="course-card-cc-stats mb-3">
+                                    <i class="fal fa-dollar-sign"></i> 4m dollars Earned<br>
+                                    <i class="fal fa-coins"></i> 2000 Reputation Points Earned<br>
+                                    <i class="fal fa-shopping-cart"></i> 200k Purchases<br>
+                                </div>
+                                <div class="card-foot d-flex justify-content-between align-items-center">
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fal fa-star"></i>
+                                        <i class="fal fa-star"></i>
+                                    </div>
+                                    <span class="course-price">$40</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <span class="heading">Owned By You</span>
+
+                    <div class="courses">
+                        <div class="course2 card" onclick="window.location.href = 'OwnedCourse.html';">
+                            <div class="card-body">
+                                <h5 class="card-title">Learn Web Development</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Pellentesque vulputate lectus ac odio tristique, eget vestibulum neque maximus. Nunc
+                                    sed tortor nisl.</p>
+                                <div class="card-foot d-flex justify-content-between align-items-center">
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fal fa-star"></i>
+                                    </div>
+                                    <span class="course-price">$20</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        $(".course").click(function () {
+            window.location.href = "Course.html"
+        });
+    </script>
+
+</body>
+
+</html>

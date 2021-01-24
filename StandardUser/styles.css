@@ -4,7 +4,8 @@
 body {
     background-color: #1D1C1C !important;
     font-family: "Nanum Gothic", "Arial";
-    color: white !important;
+    color: rgb(231, 228, 228) !important;
+    margin-bottom: 30px !important;
 }
 
 .actual-content {
@@ -188,6 +189,33 @@ body {
     object-fit: cover;
 }
 
+
+
+/* implementing for owned courses */
+
+.actual-content .courses-cont .courses .course2 {
+    width: 300px;
+    background: transparent !important;
+    margin-right: 20px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.actual-content .courses-cont .courses .course2 .card-body {
+    background: -webkit-linear-gradient(45deg, rgb(160, 91, 91), rgb(36, 36, 165));
+    border-bottom-right-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+}
+
+.actual-content .courses-cont .courses .course2 .card-body .course-card-cc-stats {
+    font-family: "Quicksand", arial;
+}
+
+.actual-content .courses-cont .courses .course2 .card-body .course-price {
+    font-size: 20px;
+}
+
+/* */
 /* */
 
 /* Course.html */
@@ -195,7 +223,7 @@ body {
 .actual-content .center .course-top-card {
     margin-top: 20px;
     border-radius: 10px;
-    height: 200px;
+    height: 130px;
     padding: 10px;
     background-image: linear-gradient(45deg, rgb(160, 91, 91), rgb(36, 36, 165));
 }
@@ -205,7 +233,7 @@ body {
 }
 
 .actual-content .center .course-top-card-content .bottom-course-top-card-content {
-    margin-top: 90px;
+    margin-top: 5px;
 }
 
 .actual-content .center .course-top-card .course-title {
@@ -215,7 +243,7 @@ body {
 }
 
 .actual-content .center .course-top-card .course-top-card-price {
-    font-family: "Potta One", Arial;
+    font-family: "Anton", Arial;
     font-size: 35px;
 }
 
@@ -225,5 +253,147 @@ body {
 
 .actual-content .center .course-top-card-content .bottom-course-top-card-content span {
     margin-right: 5px;
-    font-family: "Quicksand","Arial";
+    font-family: "Quicksand", "Arial";
 }
+
+.actual-content .center .abt-the-creator {
+    background-image: linear-gradient(45deg, rgb(160, 91, 91), rgb(36, 36, 165));
+    box-shadow: 5px 5px 10px #161616 !important;
+    border-radius: 15px;
+}
+
+.actual-content .center .abt-the-creator img {
+    width: 120px;
+    margin: auto;
+    margin-top: -70px;
+}
+
+.actual-content .center .abt-the-creator .card-body {
+    text-align: center;
+}
+
+.actual-content .center .info-part .wht-u-learn {
+    margin-left: 10px;
+}
+
+.actual-content .center .info-part .wht-u-learn-cont {
+    box-shadow: 5px 5px 10px #161616 !important;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.actual-content .center .info-part .wht-u-learn-cont .learning-item {
+    font-size: 17px;
+    font-family: "Quicksand", Arial;
+    margin-bottom: 8px;
+}
+
+.actual-content .center .info-part .wht-u-learn-cont .learning-item i:before {
+    background: -webkit-linear-gradient(45deg, rgb(160, 91, 91), rgb(36, 36, 165)) !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+.actual-content .center .info-part .video-cont {
+    margin-top: 20px;
+}
+
+.actual-content .center .info-part .video-cont video {
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #161616 !important;
+    margin-top: 15px;
+    margin-left: 10px;
+    outline: none !important;
+    border: none !important;
+}
+
+.actual-content .center .course-top-card-content button {
+    background: transparent;
+    border: 1px solid rgb(255, 255, 255) !important;
+    border-radius: 15px;
+    font-family: "Quicksand", Arial;
+    color: rgb(240, 239, 239);
+    font-size: 20px;
+    padding: 2px 10px;
+    outline: none !important;
+}
+
+/* */
+
+/* OwnedCourse.html */
+
+.actual-content .center .row .info-part .content span {
+    display: block;
+}
+
+.actual-content .center .row .info-part .content .section-heading {
+    padding: 10px;
+    background: -webkit-linear-gradient(45deg, rgb(160, 91, 91), rgb(36, 36, 165)) !important;
+    color: white;
+    border-radius: 7px;
+    font-family: "Quicksand", arial;
+    margin-bottom: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.actual-content .center .row .info-part .content .chapter {
+    padding: 10px;
+    color: white;
+    border-radius: 7px;
+    font-family: "Quicksand", arial;
+    margin-bottom: 20px;
+    font-size: 17px;
+    box-shadow: 5px 5px 10px #333232 !important;
+    cursor: pointer;
+}
+
+.actual-content .center .row .info-part .content .Exercise {
+    padding: 10px;
+    border-radius: 7px;
+    font-family: "Quicksand", arial;
+    margin-bottom: 20px;
+    font-size: 17px;
+    box-shadow: 5px 5px 10px #333232 !important;
+    background: -webkit-linear-gradient(45deg, rgb(160, 91, 91), rgb(36, 36, 165)) !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    cursor: pointer;
+}
+
+.actual-content .center .row .info-part .content .Exercise .fa-bolt:before {
+    background: -webkit-linear-gradient(45deg, rgb(160, 91, 91), rgb(36, 36, 165)) !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+}
+
+.actual-content .center .row .info-part .content .sub-section-heading {
+    padding: 10px;
+    color: white;
+    border-radius: 7px;
+    font-family: "Quicksand", arial;
+    font-size: 17px;
+    background: -webkit-linear-gradient(45deg, rgb(160, 91, 91), rgb(36, 36, 165)) !important;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+}
+
+.actual-content .center .row .info-part .content .eoc-heading {
+    padding: 10px;
+    background: -webkit-linear-gradient(45deg, rgb(160, 91, 91), rgb(36, 36, 165)) !important;
+    color: white;
+    border-radius: 7px;
+    font-family: "Quicksand", arial;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+/* */
